@@ -1,0 +1,40 @@
+.Die {
+  background: red;
+  color: white;
+  display: flex;
+  border-radius: 25px;
+  transform-origin: center center;
+  transition: transform .5s;
+}
+
+.Die__face {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  font-size: 3em;
+  text-align: center;
+}
+
+.Die__face span {
+    line-height: .8;
+}
+
+.Die__face--regular {
+    font-size: 2em;
+}
+
+.Die__face--nollie {
+    font-size: 2.3em;
+}
+
+.Die__face--switch {
+    font-size: 2.3em;
+}
+
+.Die__face--frontside, .Die__face--backside {
+    font-size: 2.5em;
+}
+
+.Die--roll {
+  transform: rotate(360deg);
+}
