@@ -5,6 +5,7 @@ import DirectionDie from './Dice/DirectionDie.js'
 import FlipTrickDie from './Dice/FlipTrickDie.js'
 import SpinDegreeDie from './Dice/SpinDegreeDie.js'
 import StanceDie from './Dice/StanceDie.js'
+import ModeSwitch from './ModeSwitch.js'
 
 import './App.css';
 
@@ -60,8 +61,10 @@ class App extends Component {
             type="button"
             name="button"
             onClick={ this.rollDice }
-            className="rolldice__button">ROLL 'EM</button>
+            className="rolldice__button">ROLL &#39;EM</button>
         </div>
+        
+        <ModeSwitch></ModeSwitch>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 function OneEighty() {
   return (
-    <div class="Die__face">
+    <div className="Die__face">
       <span>180</span>
     </div>
   )

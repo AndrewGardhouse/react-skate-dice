@@ -1,6 +1,6 @@
 function Kickflip() {
   return (
-    <div class="Die__face">
+    <div className="Die__face">
       <span>KICK</span>
       <span>FLIP</span>
     </div>
